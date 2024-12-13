@@ -1,0 +1,12 @@
+{
+  "services": {
+    "force_shutdown": {
+      "name": "Force shutdown",
+      "description": "Force shutdown the computer"
+    },
+    "force_restart": {
+      "name": "Force restart",
+      "description": "Force restart the computer"
+    }
+  }
+} 

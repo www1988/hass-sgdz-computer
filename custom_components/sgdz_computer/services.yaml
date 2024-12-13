@@ -1,0 +1,39 @@
+force_shutdown:
+  name: 强制关机
+  description: 强制关闭电脑
+  target:
+    entity:
+      integration: sgdz_computer
+      domain: switch
+
+force_restart:
+  name: 强制重启
+  description: 强制重启电脑
+  target:
+    entity:
+      integration: sgdz_computer
+      domain: switch
+
+hibernate:
+  name: 休眠
+  description: 使电脑进入休眠状态
+  target:
+    entity:
+      integration: sgdz_computer
+      domain: switch
+
+sleep:
+  name: 睡眠
+  description: 使电脑进入睡眠状态
+  target:
+    entity:
+      integration: sgdz_computer
+      domain: switch
+
+wake:
+  name: 唤醒
+  description: 从睡眠/休眠状态唤醒电脑
+  target:
+    entity:
+      integration: sgdz_computer
+      domain: switch 
